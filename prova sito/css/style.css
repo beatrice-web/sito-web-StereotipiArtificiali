@@ -1,0 +1,195 @@
+body{
+    margin: 0%;
+    font-family: Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+
+}
+
+header{
+    max-width: 1000%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 16px;
+}   
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px; 
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: unset;
+    color: #126485;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #126485;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #126485;
+}
+.info{
+    background-color: #126485;
+    padding: 64px 40px;
+    gap: 136px;
+}
+.info h1{
+    margin: auto;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: normal;
+    font-size: 70px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+} .linea{
+    background-color: #253F65;
+    padding: 16px 16px;
+    gap: 136px;
+
+}
+
+.content1{
+    padding: 64px 32px;
+    display: flex;
+    gap: 124px;
+    max-width: 1120px;
+    margin: auto;
+}
+
+.card1{
+   width: 446px;
+
+}.testo1{
+    width: 550px;
+} 
+
+.testo1 h2{
+    color: #126485;
+    font-size: 40px;
+    gap: 136;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}.testo1 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+} .content2{
+    padding: 64px 32px;
+    display: flex;
+    gap: 124px;
+    max-width: 1120px;
+    margin: auto;
+    
+}
+
+.card2{
+    width: 446px;
+
+}.testo2{
+    width: 550px;
+
+} .testo2 h2{
+    color: #126485;
+    font-size: 40px;
+    gap: 136;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}.testo2 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}.content3{
+    padding: 64px 32px;
+    display: flex;
+    gap: 124px;
+    max-width: 1120px;
+    margin: auto;
+ 
+}
+
+.card3{
+    width: 446px
+ 
+}.testo3{
+    width: 550px;
+
+} .testo3 h2{
+    color: #126485;
+    font-size: 40px;
+    gap: 136;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}.testo3 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content4{
+    padding: 64px 32px;
+    display: flex;
+    gap: 124px;
+    max-width: 1120px;
+    margin: auto;
+}
+
+.card4{
+    width: 446px
+}.testo4{
+    width: 550px;
+
+} .testo4 h2{
+    color: #126485;
+    font-size: 40px;
+    gap: 136;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}.testo4 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background-color: #126485;
+    padding: 64px 16px;
+    gap: 136px;
+
+} footer p {
+    margin: auto;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+@media screen  and (max-width:600px) { 
+   
+    header {
+        flex-direction: column;
+        gap: 5px;
+        justify-content: start;
+        align-items: center;
+    }
+    .info, .content1, .content2, .content3, .content4, .linea {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }.content1 .card1, .content1 .testo1, .content2 .card2, .content2 .testo2,  .content3 .card3, .content3 .testo3, .content4 .card4, .content4 .testo4 {
+        width: 100%;
+        
+    }
+    
+}
